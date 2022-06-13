@@ -1,6 +1,8 @@
 name: 🚀 Django API with Docker integration
 
-on: [push]
+on: 
+  push:
+    branch: [ "main" ]
 
 jobs:
   test-lint:
